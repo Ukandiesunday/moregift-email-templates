@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>sender not on MoreGift email</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans";
+      }
+      body {
+        background: #ebebeb;
+      }
+      .footer-p {
+        text-align: center;
+        color: #5c6271;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 178px;
+        position: relative;
+        width: 100%;
+
+        background: #ebebeb;
+      }
+      .footer-p {
+        text-align: center;
+        color: #5c6271;
+      }
+      .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 15px;
+        max-width: 540px;
+        height: 194px;
+      }
+      .card {
+        color: #fbfbfd;
+        display: flex;
+        flex-direction: column;
+        max-width: 352px;
+        align-items: center;
+
+        gap: 20px;
+        padding: 25px;
+        height: fit-content;
+        box-shadow: 5px 5px 0px rgba(181, 191, 193, 0.81);
+        border-radius: 10px;
+        background: url(https://moregift-app-beta3.s3.amazonaws.com/moregiftback.svg),
+          linear-gradient(180deg, #384c3f 0%, #10172b 100%);
+      }
+      .card-flex {
+        display: flex;
+        gap: 170px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .card-number {
+        font-weight: 700;
+        font-size: 22.5px;
+        letter-spacing: 2px;
+        color: #ffe605;
+        text-wrap: nowrap;
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px 4%;
+        }
+        .card-container {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .card-container {
+          display: flex;
+          max-width: 300px;
+          margin: 30px auto;
+        }
+        .card {
+          width: 310px;
+        }
+        .card-number {
+          letter-spacing: 1px;
+        }
+        .card-flex {
+          gap: 150px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        width="100%"
+        style="
+          height: 905px;
+          max-width: 600px;
+          display: flex;
+          gap: 30px;
+          flex-direction: column;
+        "
+      >
+        <div
+          width="600"
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            width: 100%;
+            max-width: 600px;
+            height: fit-content;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14);
+            border-radius: 5px;
+            background: #ffffff;
+          "
+        >
+          <header
+            style="
+              height: 87px;
+              align-self: flex-end;
+              width: 100%;
+              padding: 20px 30px 0px;
+              border-top: 10px solid #159557;
+              border-radius: 5px 5px 0 0;
+            "
+          >
+            <!-- image logo -->
+            <div style="float: right">
+              <img
+                style="padding-left: 16px; height: 30px"
+                src="https://moregift-app-beta3.s3.amazonaws.com/moregiftlogo.svg"
+                alt="moregift"
+              />
+              <p class="height:22px; line-height">
+                <span
+                  style="
+                    height: 32px;
+                    font-weight: 500;
+                    padding-left: 70px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #5c6271;
+                  "
+                  >Tagline here</span
+                >
+              </p>
+            </div>
+          </header>
+          <main
+            style="
+              padding: 30px;
+              width: 100%;
+              max-width: 600px;
+              height: fit-content;
+              gap: 30px;
+              font-weight: 500;
+            "
+          >
+            <section
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                width: 100%;
+                max-width: 540px;
+              "
+            >
+              <h5
+                style="
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 30px;
+                  color: #3b3f4a;
+                "
+              >
+                Congratulations, you have a Gift!
+              </h5>
+              <p>Dear [receiver's name],</p>
+              <p>
+                Your have a special Gift from [sender first name]. To redeem
+                your gift, you'll need a MoreGift account.
+              </p>
+
+              <div class="card-container">
+                <div class="card">
+                  <div class="card-flex">
+                    <div>
+                      <span>Segun</span>
+                    </div>
+                    <div>
+                      <img
+                        style="font-size: 14px"
+                        src="https://moregift-app-beta3.s3.amazonaws.com/moregiftlogo.svg"
+                        alt="moregift logo"
+                      />
+                    </div>
+                  </div>
+                  <h6 style="font-weight: 700; font-size: 18px; color: #cbd1da">
+                    £ xx.xx
+                  </h6>
+                  <div
+                    style="font-size: 12px; font-weight: 500; color: #cbd1da"
+                  >
+                    Gift Card Code
+                  </div>
+                  <div class="card-number">0987 - 8100 - 0156 - 3454</div>
+                </div>
+              </div>
+
+              <p>
+                For a seamless redemption experience please follow the
+                instructions on the webpage.
+              </p>
+              <section>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px 10px;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    width: 100%;
+
+                    height: 70px;
+                    background: #159557;
+                    border-radius: 10px;
+                    color: #ffffff;
+                    cursor: pointer;
+                  "
+                >
+                  Redeem Your Gift
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.18135 10.835H16.82L14.0775 13.5775C13.2898 14.3652 14.4714 15.5468 15.2592 14.7591L17.7569 12.2575L19.4242 10.5875C19.7473 10.2625 19.7473 9.73747 19.4242 9.4124L15.2592 5.2425C15.1007 5.07966 14.8826 4.9883 14.6553 4.99019C13.9051 4.99028 13.537 5.90399 14.0775 6.42418L16.8265 9.16672H2.13822C0.982897 9.22404 1.06916 10.8925 2.18135 10.835Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </section>
+              <p>All the best, The MoreGift Team.</p>
+            </section>
+          </main>
+        </div>
+        <footer>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-items: center;
+              align-items: center;
+
+              gap: 20px;
+              width: 100%;
+              max-width: 540px;
+              height: 163px;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 18px;
+              flex-grow: 0;
+            "
+          >
+            <p class="footer-p">
+              This message was sent to segun.saromi@gmail.com.
+              <br /><a
+                href="#"
+                style="
+                  text-decoration: underline;
+                  cursor: pointer;
+                  color: #5c6271;
+                "
+                >Privacy Policy | Manage Settings | Unsubscribe</a
+              >
+            </p>
+            <p class="footer-p">
+              MoreGift, 300 Mission Street, 16th Floor, San Francisco, CA 94105
+            </p>
+            <p class="footer-p">
+              Copyright © 2008-2023, MoreGift INC "MoreGift" and logo are
+              registered trademarks of <br />
+              MoreGift INC.
+            </p>
+            <p
+              style="
+                width: 84px;
+                height: 17px;
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 17px;
+                letter-spacing: -0.08em;
+                color: #3b3f4a;
+              "
+            >
+              moregift.app
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
